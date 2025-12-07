@@ -1,0 +1,821 @@
+{
+  "timestamp": "2025-12-06T05:42:01.589808",
+  "models_evaluated": [
+    "GPT-5.0",
+    "Gemini-3-Pro",
+    "Llama-3.1-70B",
+    "Qwen-2.5-72B"
+  ],
+  "summary": {
+    "Qwen-2.5-72B": {
+      "avg_response_time": 0.9539800405502319,
+      "avg_overall_score": 0.3695437391102313,
+      "avg_relevance_score": 0.0988593477755785,
+      "avg_avoids_repetition_score": 1.0,
+      "avg_completeness_score": 0.1,
+      "avg_response_length": 280.8,
+      "avg_word_count": 43.6,
+      "avg_tokens_used": 888.2,
+      "total_queries": 10,
+      "failed_queries": 0
+    },
+    "Gemini-3-Pro": {
+      "avg_response_time": 24.098870635032654,
+      "avg_overall_score": 0.8807264852523804,
+      "avg_relevance_score": 0.7268162131309509,
+      "avg_avoids_repetition_score": 1.0,
+      "avg_completeness_score": 0.9666666666666666,
+      "avg_response_length": 2502.1,
+      "avg_word_count": 400.9,
+      "avg_tokens_used": 2658.4,
+      "total_queries": 10,
+      "failed_queries": 0
+    },
+    "GPT-5.0": {
+      "avg_response_time": 47.24821047782898,
+      "avg_overall_score": 0.8136608266830445,
+      "avg_relevance_score": 0.6591520667076111,
+      "avg_avoids_repetition_score": 1.0,
+      "avg_completeness_score": 0.8333333333333333,
+      "avg_response_length": 2070.6,
+      "avg_word_count": 331.2,
+      "avg_tokens_used": 2815.9,
+      "total_queries": 10,
+      "failed_queries": 0
+    },
+    "Llama-3.1-70B": {
+      "avg_response_time": 10.847406768798828,
+      "avg_overall_score": 0.8571957087516786,
+      "avg_relevance_score": 0.7179892718791961,
+      "avg_avoids_repetition_score": 1.0,
+      "avg_completeness_score": 0.9,
+      "avg_response_length": 1485.2,
+      "avg_word_count": 243.9,
+      "avg_tokens_used": 1124.1,
+      "total_queries": 10,
+      "failed_queries": 0
+    }
+  },
+  "detailed_results": [
+    {
+      "query": "Looking for a refreshing highball-style cocktail with ginger beer or ginger notes",
+      "model": "Gemini-3-Pro",
+      "metrics": {
+        "response_time": 20.949321031570435,
+        "response_length": 2930,
+        "word_count": 469,
+        "tokens_used": {
+          "prompt_tokens": 765,
+          "completion_tokens": 1803,
+          "total_tokens": 2568
+        },
+        "relevance_score": 0.7864506244659424,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on your request for a **refreshing highball-style cocktail**, here is my analysis of the retrieved recipes:\n\n### 1. Best Matches & Analysis\nThe clear standout for your specific request is the **Chilcano (variation)** (Recipe 4).\n*   **Why it fits:** It is the definition of a refreshing highball. Served in a large (14 oz) glass, it combines Pisco (an unaged grape brandy) with fresh lime and ginger beer.\n*   **Flavor Profile:** This specific variation doubles down on the spice by using both **Ginger Liqueur** and **Ginger Beer**, balanced by the floral notes of the Pisco and the tartness of cranberry bitters.\n\n**Runner Up:** **A Southern Jackass** (Recipes 1 & 2).\n*   **Why it fits:** While the recipe calls for an Old Fashioned glass (short drink), the flavor profile constitutes a \"sparkling spiced ginger lemonade.\" It relies on a homemade **Cinnamon Candied Ginger Syrup** topped with club soda.\n*   **Note:** The recipe fragments imply a spirit base is added (likely Whiskey or Bourbon given the name \"Southern\"), though the specific spirit line is missing from the text snippet.\n\n### 2. Comparison of Styles\n*   **The \"Chilcano\" (Easy & Zesty):** This is a \"build-in-glass\" style drink. It is faster to make and focuses on the sharp, effervescent bite of commercial ginger beer mixed with floral Pisco. It is lighter and more suited for hot weather.\n*   **\"A Southern Jackass\" (Culinary & Spiced):** This is a high-effort \"craft\" cocktail. You must cook the syrup and candy the ginger first. The result will be thicker, richer, and have warmer notes (cinnamon) compared to the crisp Chilcano.\n\n*Note: I have excluded **The Alpine Mist** (Martini style) and **Rx Hot Toddy** (Hot drink) as they do not fit the \"refreshing highball\" criteria.*\n\n### 3. Suggested Modifications\n*   **To make \"A Southern Jackass\" a true Highball:** Simply move the ingredients to a Collins or Highball glass and increase the amount of club soda. This turns it from a sipper into a thirst-quencher.\n*   **Chilcano Substitutions:** If you do not have Pisco, this template works beautifully with Vodka (Moscow Mule), Gin (Gin Buck/Foghorn), or Dark Rum (Dark 'n' Stormy). If you lack Ginger Liqueur, muddle a slice of fresh ginger in the shaker to maintain that extra spicy kick.\n\n### 4. Expert Tips\n*   **Ginger Beer Matters:** For the Chilcano, ensure you buy *Ginger Beer* (fermented, spicy, cloudy) rather than *Ginger Ale* (sweet, carbonated soda). The \"bite\" is essential to balance the agave and liqueur.\n*   **Syrup Shelf Life:** If you make the syrup for \"A Southern Jackass,\" the leftover candied ginger makes an excellent garnish for *any* ginger cocktail, including the Chilcano.\n*   **Bitters:** The Chilcano specifically calls for **Cranberry Bitters**. This adds a dry, fruity finish. If you cannot find them, standard Angostura bitters are acceptable, but Peychaud’s bitters would be a closer fruity/floral alternative.",
+        "overall_score": 0.9145802497863771
+      }
+    },
+    {
+      "query": "I want a whiskey-based cocktail that's not too sweet, suitable for winter",
+      "model": "Gemini-3-Pro",
+      "metrics": {
+        "response_time": 24.474782466888428,
+        "response_length": 2781,
+        "word_count": 445,
+        "tokens_used": {
+          "prompt_tokens": 727,
+          "completion_tokens": 1891,
+          "total_tokens": 2618
+        },
+        "relevance_score": 0.7756593823432922,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on the recipes provided, here is an analysis of the best matches for a whiskey-based, winter-appropriate cocktail that isn't overly sweet.\n\n### 1. Top Recommendations\n*   **Best Overall Match: Garrison's New Fashioned (Recipe 3)**\n    *   **Why:** As a variation on the Old Fashioned, this is inherently a spirit-forward drink rather than a sugary one. The recipe explicitly mentions a balance between the \"sweet apricot liqueur\" and the \"bitterness from the muddled lemon peel,\" resulting in a complex, buttery finish rather than a cloying one.\n*   **Best Seasonal Flavor: The 42nd Round (Recipe 2)**\n    *   **Why:** While the base spirit isn't explicitly named in the snippet, the use of an **Anchor Christmas Ale & Honey reduction** screams winter. The bitterness of the ale in the reduction will help cut the sweetness of the honey, making it a rich, savory choice for cold weather.\n\n### 2. Comparison of Styles\n*   **The Sipper vs. The Refresher:**\n    *   **Garrison's New Fashioned** and **The 42nd Round** are stirred, aromatic cocktails meant to be sipped slowly. They rely on texture and the warmth of the whiskey.\n    *   **A Southern Jackass (Recipe 5)** is a \"long drink\" (highball style) involving club soda and ice. While the cinnamon-candied ginger syrup fits the winter theme, this style is typically more diluted and refreshing, whereas the user might prefer the warming qualities of the first two.\n*   **Sweetness Profile:**\n    *   **Garrison's:** Relies on liqueur and fruit oils; likely the driest option.\n    *   **A Southern Jackass:** Risk of being sweeter due to the \"candied ginger syrup,\" though the club soda helps mitigate this.\n\n### 3. Suggestions & Modifications\n*   **For Garrison's New Fashioned:** If you are worried about the apricot brandy adding too much sugar, ensure you use a high-quality, drier brand (like the Rothman & Winter mentioned in Recipe 1) or increase the aromatic bitters to cut through the viscosity.\n*   **For A Southern Jackass:** To make this more \"winter-appropriate\" and less sweet, consider swapping the club soda for a dry sparkling wine or simply reducing the amount of syrup used. You could also use a high-proof bourbon to stand up to the strong ginger and cinnamon flavors.\n\n### 4. Expert Insight\n*   **Winter Texture:** For **The 42nd Round**, the honey-beer reduction creates a velvety mouthfeel that is perfect for winter. It mimics the weight of a stout beer but with the punch of a cocktail.\n*   **Ingredients Matter:** Recipe 1 mentions that apricot liqueurs can be \"cloyingly sweet.\" Since Recipe 3 (Garrison's) also uses apricot liqueur, apply the advice from Recipe 1: avoid cheap \"fruit liqueurs\" and stick to an eau-de-vie or high-end brandy to maintain that \"not too sweet\" balance you requested.",
+        "overall_score": 0.910263752937317
+      }
+    },
+    {
+      "query": "Find me a tropical cocktail with pineapple and coconut flavors",
+      "model": "Gemini-3-Pro",
+      "metrics": {
+        "response_time": 20.338417291641235,
+        "response_length": 2340,
+        "word_count": 375,
+        "tokens_used": {
+          "prompt_tokens": 737,
+          "completion_tokens": 1792,
+          "total_tokens": 2529
+        },
+        "relevance_score": 0.7986792922019958,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.6666666666666666,
+        "response": "Based on the recipes provided, none perfectly combine **both** pineapple and coconut into a single drink, but you have excellent distinct options for each flavor profile.\n\n### Summary of Matches\n*   **Best for Coconut:** **You Go Glen Coco** is your only coconut option here. However, it is a complex, savory, and spicy cocktail (Rye, Ginger, Turmeric) rather than a traditional fruity tropical drink.\n*   **Best for Pineapple:** **The Pineapple Express** is the most sophisticated pineapple option. It uses Pineapple Gum Syrup for a silky texture but remains spirit-forward and herbal (hoppy vodka/vermouth) rather than juicy.\n*   **Best for \"Tropical\" Vibe:** **Ypioca Chile Punch** captures the fresh, beach-style vibe best, using fresh pineapple chunks and cachaça, though it lacks coconut.\n\n### Comparison of Styles\n*   **Savory vs. Dry:** *You Go Glen Coco* will be creamy, spicy, and warm due to the turmeric and rye. In contrast, *The Pineapple Express* is a \"Martini-style\" tropical drink—stirred, clear, and dry.\n*   **Texture:** *You Go Glen Coco* uses coconut cream for a heavy, rich mouthfeel. *The Bon Voyage Pisco Punch* and *Pineapple Express* rely on \"Gum Syrup,\" which provides a silky, weighted texture without the heaviness of cream.\n\n### Suggested Modifications (To get what you asked for)\nSince none of these contain *both* flavors, here is how to bridge the gap:\n\n1.  **The \"Tropical Glen Coco\":** Take the **You Go Glen Coco** recipe and add **1 oz of fresh Pineapple Juice**. The spice from the King's Ginger liqueur and the rye whiskey will pair beautifully with pineapple, creating a drink similar to a spicy Rye Tai.\n2.  **The \"Creamy Express\":** Take the **Pineapple Express**, but shake it with **0.5 oz of Coconut Cream** instead of stirring it. This will soften the herbal notes of the Hophead vodka and make it a true tropical sour.\n\n### Expert Tips\n*   **Gum Syrup:** Recipes 3 and 5 mention **Pineapple Gum Syrup**. This is a pro-tier ingredient (sugar syrup thickened with Gum Arabic) that adds a luxurious mouthfeel that simple syrup cannot match. It makes fruit flavors pop without diluting the spirit.\n*   **Flavor Profile:** If you choose *You Go Glen Coco*, be prepared for an earthy flavor profile. Turmeric has a distinct, slightly bitter earthiness that cuts through the sweetness of the coconut.",
+        "overall_score": 0.8194717168807983
+      }
+    },
+    {
+      "query": "What's a good cocktail for a party that can be made in large batches?",
+      "model": "Gemini-3-Pro",
+      "metrics": {
+        "response_time": 26.500460386276245,
+        "response_length": 2360,
+        "word_count": 385,
+        "tokens_used": {
+          "prompt_tokens": 831,
+          "completion_tokens": 1760,
+          "total_tokens": 2591
+        },
+        "relevance_score": 0.7269201278686523,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on the recipes provided, here is the analysis for a party-friendly, batchable cocktail:\n\n### 1. Top Recommendation: Big and Bright\nThis is your strongest candidate for a large party.\n*   **Why it works:** The notes explicitly identify this as a \"universal fave\" and a \"fine party sipper.\" The flavor profile—Gin, Ginger Liqueur, and Grapefruit—is refreshing, approachable for a wide range of palates, and easy to scale.\n*   **Batching Strategy:** You can pre-mix the Gin, King’s Ginger, grapefruit juice, lime juice, honey, and bitters in a large pitcher or punch bowl. Keep this \"base\" chilled in the fridge.\n*   **Service:** Do **not** batch the club soda. Pour the base over ice in highball glasses and top with a splash of soda fresh for each guest to maintain carbonation.\n\n### 2. The \"Prep-Heavy\" Alternative: Wooster 53\nWhile the full recipe is cut off, the **Ginger/Cardamom/Honey Syrup** component is specifically designed for high-volume prep (the recipe yields over a quart).\n*   **Why it works:** Making a complex syrup in advance allows you to simply mix the syrup and spirit during the party, then top with tonic.\n*   **Flavor Profile:** This offers a more sophisticated, spiced profile compared to the citrus-forward *Big and Bright*.\n\n### 3. Recipes to Avoid for Batches\n*   **Americana Fizz:** This is a **layered** cocktail. You cannot batch this because the visual effect relies on pouring specific densities one by one into the glass.\n*   **A Botanical Garden:** While delicious, the use of **Xanthan Gum** in the strawberry juice implies a specific textural mouthfeel that may separate or get inconsistent if left sitting in a large batch dispenser.\n*   **Swedish 75:** You cannot pre-batch champagne/sparkling wine cocktails completely, or they will go flat. You would have to batch the base and top every single drink individually.\n\n### 4. Expert Tips for Batching\n*   **Dilution:** When making *Big and Bright* as a punch, if you place large ice blocks in the bowl, make the mix slightly more concentrated (add less soda) to account for the melting ice.\n*   **Honey Integration:** Both *Big and Bright* and *Wooster 53* use honey. Honey is difficult to dissolve in cold liquids on the fly. Ensure you dilute the honey into a syrup (1:1 with warm water) or mix it thoroughly with the citrus juices *before* adding the cold spirits.",
+        "overall_score": 0.8907680511474609
+      }
+    },
+    {
+      "query": "I need a low-alcohol cocktail that's still flavorful and interesting",
+      "model": "Gemini-3-Pro",
+      "metrics": {
+        "response_time": 33.16704535484314,
+        "response_length": 2744,
+        "word_count": 444,
+        "tokens_used": {
+          "prompt_tokens": 911,
+          "completion_tokens": 2444,
+          "total_tokens": 3355
+        },
+        "relevance_score": 0.5890244841575623,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on the recipes provided, here is the analysis for a low-alcohol, flavorful option:\n\n### 1. Summary of Best Matches\nThe **Amaretto Sour (Modern)** is your strongest candidate for a low-alcohol drink, followed by the **Slow Ride**.\n\n*   **Amaretto Sour:** Amaretto is a liqueur typically bottled at 24–28% ABV (significantly lower than the 40% ABV of vodka or whiskey). It relies on strong almond and stone fruit notes rather than alcohol burn for flavor.\n*   **Slow Ride:** While the recipe generally calls for a standard shot of spirits, this is a \"long drink\" (high volume of mixers like lemonade and beer). This dilutes the alcohol significantly compared to the other spirit-forward options like the *Cherry Old Fashioned* or *Root Down*.\n\n### 2. Comparison of Styles\n*   **Texture & Body:** The **Amaretto Sour** will be velvety, rich, and texturally dense (especially if shaken with egg white, which is standard for \"Modern\" specs). The **Slow Ride** is effervescent, crisp, and lighter on the palate due to the carbonation from the IPA.\n*   **Flavor Profile:** The **Amaretto Sour** is sweet, nutty, and tart—essentially a liquid dessert. The **Slow Ride** is complex and spicy, mixing the bite of ginger liqueur and rye with the floral/citrus hops of the IPA.\n\n### 3. Suggested Modifications for Lower ABV\nTo ensure these fit your \"low-alcohol\" requirement, consider these tweaks:\n\n*   **For the Amaretto Sour:** \"Modern\" recipes often add a shot of cask-strength bourbon to boost the alcohol. **Omit the bourbon entirely.** Use 1.5 oz Amaretto, 0.75 oz Lemon Juice, and a dash of bitters. This results in a very flavorful drink with the alcohol content of a glass of wine.\n*   **For the Slow Ride:** As written, this recipe is actually quite strong (2 oz spirits + beer). To make it low-ABV: Cut the Rye Whiskey and Rum completely. Use 1.5 oz King's Ginger Liqueur as the base, increase the lemonade, and top with a **Session IPA** (which are usually low gravity/low alcohol).\n\n### 4. Expert Context & Tips\n*   **The \"Session\" Concept:** The *Slow Ride* falls into the category of a \"Session\" cocktail—designed to be drunk over a longer period (like an afternoon on a patio). The ice melt and volume make it easier to pace yourself.\n*   **Ingredient Spotlight:** The *Root Down* and *Cherry Old Fashioned* are **not recommended** for this request. They are \"Spirit-Forward\" drinks composed almost entirely of high-proof alcohol, designed for slow sipping and high impact.\n*   **Technique:** If making the Amaretto Sour, shake it *without* ice first (\"dry shake\") to emulsify the ingredients, then add ice and shake again. This ensures a frothy, meringue-like texture that makes the drink feel substantial despite the lower alcohol.",
+        "overall_score": 0.8356097936630249
+      }
+    },
+    {
+      "query": "I'm looking for a classic gin cocktail that's elegant and sophisticated",
+      "model": "Gemini-3-Pro",
+      "metrics": {
+        "response_time": 21.761296033859253,
+        "response_length": 2585,
+        "word_count": 398,
+        "tokens_used": {
+          "prompt_tokens": 723,
+          "completion_tokens": 1740,
+          "total_tokens": 2463
+        },
+        "relevance_score": 0.7567595839500427,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on the recipes provided, here is an analysis of the best options for an elegant, sophisticated gin cocktail.\n\n### 1. Top Recommendations\nFor a \"classic, elegant, and sophisticated\" profile, **Recipe 1 (Gin Made Me Do It)** and **Recipe 2 (The Canevari Cocktail)** are your best choices.\n\n*   **Why:** Both utilize the **stirred, spirit-forward** technique typical of high-end classics like the Martini or Manhattan. They lack fruit juices, relying instead on the interplay between the base spirit, fortified wines (vermouth), and modifiers, resulting in a silky texture and crystal-clear appearance.\n\n### 2. Comparative Analysis\nWhile both are sophisticated, they offer distinct flavor profiles:\n\n*   **Gin Made Me Do It (The Aromatic Choice):** This is essentially a split-base Martini variation. The addition of **Calvados** (apple brandy) adds a subtle fruit depth that pairs beautifully with the juniper, while the **Absinthe** and **Fennel** garnish provide a complex, anise-forward nose. It is drier and more herbaceous.\n*   **The Canevari Cocktail (The Richer Choice):** This falls into the **Martinez** or **Negroni** family tree. The use of **Old Tom Gin** (which is sweeter and fuller-bodied than London Dry) combined with sweet vermouth and Luxardo Bitter makes this a richer, bittersweet, and more viscous drinking experience.\n\n### 3. Modifications & Variations\n*   **For \"Gin Made Me Do It\":** If you do not have Calvados, a high-quality Applejack or even a dry Sherry could provide a similar structural complexity, though the flavor will shift.\n*   **For \"The Canevari Cocktail\":** If you cannot find Old Tom Gin, use a standard London Dry Gin and add a scant barspoon of simple syrup or Maraschino liqueur to mimic the weight and sweetness of the Old Tom style. Campari can substitute for Luxardo Bitter, though Luxardo is generally more herbal and less aggressive.\n\n### 4. Expert Tips & Context\n*   **Technique is Key:** Because these drinks contain only spirits and wines, **dilution is the most important ingredient.** Stir these longer than you think (30–45 seconds) to take the \"heat\" off the alcohol and achieve a velvety mouthfeel.\n*   **Glassware:** Sophistication requires temperature control. Ensure your Martini or Coupe glass is stored in the freezer before serving; these drinks warm up quickly in the hand.\n*   **The Partial Recipes:** Recipes 3, 4, and 5 appear to be shaken sours or highballs (involving juices, tinctures, or tonic). While delicious, they generally read as \"refreshing\" rather than \"sophisticated/elegant\" in the traditional sense.",
+        "overall_score": 0.902703833580017
+      }
+    },
+    {
+      "query": "Can you recommend a tequila cocktail with citrus and a spicy kick?",
+      "model": "Gemini-3-Pro",
+      "metrics": {
+        "response_time": 24.127260446548462,
+        "response_length": 2276,
+        "word_count": 365,
+        "tokens_used": {
+          "prompt_tokens": 708,
+          "completion_tokens": 1732,
+          "total_tokens": 2440
+        },
+        "relevance_score": 0.7734889984130859,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on the recipes provided, here is my analysis for a tequila cocktail with citrus and spice:\n\n### 1. Top Recommendation\nThe **Vieja Moda (Recipe 1)** is your best match.\n*   **Why:** It explicitly combines **Chinaco Anejo Tequila** with **Bittermens Hellfire Bitters** (providing the spicy kick) and expressed citrus oils.\n*   **Style:** It is a tequila riff on an Old Fashioned. It relies on the warmth of cinnamon-clove syrup and aged tequila rather than fruit juice, making it a sophisticated, spirit-forward sipper rather than a sour.\n\n### 2. Comparative Analysis & Cross-Utilization\nWhile **Vieja Moda** is the only *tequila* recipe listed with explicit spice, you have the components to build a better \"fresh\" spicy cocktail by borrowing from **The Last Tango (Recipe 4)**.\n*   **The Last Tango** is a gin cocktail, *but* it provides the recipe for a **Chili Tincture** (Habanero/Bird's eye).\n*   **Vida Verde (Recipe 2)** provides a standard sour base (Tequila + Sour Mix).\n*   **Contrast:** The *Vieja Moda* is dark, rich, and stirred. A combination of *Vida Verde* and the *Chili Tincture* would be bright, acidic, and shaken.\n\n### 3. Suggested Modifications\nIf you prefer a refreshing \"Spicy Margarita\" style drink over the heavy Old Fashioned style of the *Vieja Moda*:\n*   **The \"Spicy Vida\":** Prepare the **Vida Verde (Recipe 2)** but add 3-5 drops of the **Chili Tincture** from Recipe 4 into the shaker.\n*   **The \"Hellfire\" Sour:** Alternatively, add the **Hellfire Bitters** from Recipe 1 into the **Vida Verde**. This adds heat without the labor of making a tincture from scratch.\n\n### 4. Expert Tips\n*   **Heat Management:** The *Hellfire Bitters* (Recipe 1) and *Chili Tincture* (Recipe 4) are potent. Start with 2-3 drops; you can always add more, but you cannot take it out.\n*   **Tequila Selection:** The *Vieja Moda* calls for **Anejo** (aged) because it pairs with the cinnamon/clove. If you try the modified *Vida Verde* suggestion above, stick to **Blanco** tequila for a crisp, clean finish that lets the citrus and chili shine.\n*   **Glassware:** If making the Vieja Moda, ensure your glass is heavy-bottomed; the \"expressed citrus\" step implies rubbing the peel on the glass rim before filling, which enhances the aroma before the first sip.",
+        "overall_score": 0.9093955993652345
+      }
+    },
+    {
+      "query": "I want something fruity and sweet, perfect for a summer brunch",
+      "model": "Gemini-3-Pro",
+      "metrics": {
+        "response_time": 24.243831634521484,
+        "response_length": 2696,
+        "word_count": 425,
+        "tokens_used": {
+          "prompt_tokens": 969,
+          "completion_tokens": 1929,
+          "total_tokens": 2898
+        },
+        "relevance_score": 0.6713851690292358,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on the recipes provided, here is my analysis for a **fruity, sweet, summer brunch** cocktail:\n\n### Best Matches & Why\n\n1.  **Top Pick: Raspberry Batida**\n    *   **Why:** This is the best fit for \"fruity and sweet.\" It acts almost like a tropical smoothie or milkshake. The combination of fresh raspberries, condensed coconut milk, and almond milk creates a rich, creamy texture that screams summer vacation.\n    *   **Flavor Profile:** Decadent, berry-forward, and tropical.\n\n2.  **Runner Up: Speyside Orchard**\n    *   **Why:** While bourbon is usually heavy, serving this over **crushed ice** with lemon and chamomile makes it refreshing. The \"tea\" element of the chamomile syrup bridges the gap perfectly for brunch.\n    *   **Flavor Profile:** Floral, crisp apple, and refreshing tea notes.\n\n3.  **Honorable Mention: La Perle de Verre**\n    *   **Why:** The **Rose Poached Pear Syrup** is elegant and sophisticated. Since it uses Rosé wine as a base for the syrup and is topped with soda, it likely drinks like a complex, fruit-forward Spritz.\n\n### Comparison of Styles\n\n*   **Texture:** The **Raspberry Batida** is creamy and opaque (due to condensed milk), whereas the **Speyside Orchard** and **La Perle de Verre** are translucent, effervescent, and lighter on the stomach.\n*   **Sweetness:** The **Batida** will be the sweetest due to the condensed milk and liqueurs. The **Speyside Orchard** is more balanced (tart lemon cuts the syrup).\n*   **Seasonality:** **Avoid the Apple Shrub Spritz** for this specific request. The heavy use of cloves, mace, nutmeg, and allspice makes it distinctly autumnal/wintery, rather than a summer refresher.\n\n### Modifications & Tips\n\n*   **For the Raspberry Batida:** If you find condensed milk too heavy for a hot day, you can blend this with ice to make a frozen slushie version, or swap the condensed milk for coconut water for a \"skinny\" version.\n*   **For the Speyside Orchard:** If you want it even \"summerier,\" swap the Bourbon for Gin or Vodka. The chamomile and apple flavors pair beautifully with clear spirits.\n*   **Prep Warning:** Both the **Speyside Orchard** (Chamomile syrup) and **La Perle de Verre** (Pear syrup) require significant prep time to make and cool the syrups. The **Raspberry Batida** is the easiest to make \"on the fly\" as long as you have the ingredients.\n\n### Expert Insight\nFor a brunch setting, **low-ABV (alcohol by volume)** is often preferred so guests can enjoy a few drinks. The **La Perle de Verre** (assuming a standard spritz ratio) or the **Speyside Orchard** (diluted by crushed ice) are your best bets for day-drinking stamina. The Batida is delicious but rich—guests likely won't want more than one.",
+        "overall_score": 0.8685540676116943
+      }
+    },
+    {
+      "query": "Find me a complex cocktail with multiple spirits and herbal notes",
+      "model": "Gemini-3-Pro",
+      "metrics": {
+        "response_time": 23.13830852508545,
+        "response_length": 2077,
+        "word_count": 333,
+        "tokens_used": {
+          "prompt_tokens": 833,
+          "completion_tokens": 1741,
+          "total_tokens": 2574
+        },
+        "relevance_score": 0.7528020739555359,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on the recipes provided, here is the analysis for a complex, herbal, multi-spirit cocktail.\n\n### 1. Top Recommendation\n**The Sage & Sound** is the strongest match for your request.\n*   **Why:** It features a sophisticated split base of **Gin and White Port**. The herbal complexity is layered: you get the inherent juniper from the gin, the botanical nuances of the fortified wine, and the punch of fresh muddled sage.\n*   **Complexity:** This is a \"Flip\" style cocktail (using a whole egg), which transforms herbal ingredients into a rich, savory, and custard-like texture rather than a standard refreshing sour.\n\n### 2. The Alternative\n**A Botanical Garden** is a close runner-up if you prefer something brighter.\n*   **Why:** While technically vodka-based, the inclusion of **Zirbenz Stone Pine Liqueur** acts as a second spirit that dominates the flavor profile.\n*   **Comparison:** Unlike the creamy *Sage & Sound*, this is bright and forest-forward. It combines the \"green\" flavors of hops and pine with the acidity of lemon and sweetness of strawberry.\n\n### 3. Comparison & Flavor Profiles\n*   **Sage & Sound (Savory & Rich):** Think of this as a dessert cocktail for people who don't like sugar. The cinnamon and honey bridge the gap between the savory sage and the floral port.\n*   **A Botanical Garden (Earthy & Tart):** This is an alpine experience. The Xanthan gum mentioned in the strawberry juice is a molecular technique to add mouthfeel without the heaviness of egg or cream.\n\n### 4. Modifications & Tips\n*   **Technique (Sage & Sound):** The \"Dry Shake\" (shaking without ice first) is non-negotiable here. You must emulsify the whole egg to avoid a separation of texture.\n*   **Ingredient Swap (A Botanical Garden):** Zirbenz is a rare ingredient. If you cannot find it, **Green Chartreuse** or **Genepy** are excellent high-proof herbal substitutes that will maintain that complex, botanical profile.\n*   **Glassware:** The *Sage & Sound* is best served as a nightcap (digestif) due to its richness, while *A Botanical Garden* works well as an aperitif.",
+        "overall_score": 0.9011208295822144
+      }
+    },
+    {
+      "query": "I need a quick and easy cocktail recipe that requires minimal ingredients",
+      "model": "Gemini-3-Pro",
+      "metrics": {
+        "response_time": 22.287983179092407,
+        "response_length": 2232,
+        "word_count": 370,
+        "tokens_used": {
+          "prompt_tokens": 802,
+          "completion_tokens": 1746,
+          "total_tokens": 2548
+        },
+        "relevance_score": 0.6369923949241638,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on your request for a **quick, easy, and minimal ingredient** cocktail, here is my analysis of the provided options:\n\n### 1. Top Recommendation: Swedish 75\nThis is your best match. While the text provided describes the finishing steps, this drink is a riff on the classic **French 75**, which is famous for its simplicity and elegance.\n*   **Why it wins:** Unlike the other recipes shown, it does not appear to require cooking syrups on a stove (like *The Fall 75* or *San Francisco Harvest*) or brewing and chilling tea (like *Cut and Run*).\n*   **Flavor Profile:** Bright, effervescent, and crisp.\n*   **Expert Insight:** The \"Swedish\" in the name implies the use of **Aquavit** instead of the traditional Gin. If you do not have Aquavit, you can use Gin to make a standard French 75.\n\n### 2. Comparison with Other Options\nThe other recipes are likely too labor-intensive for a \"quick\" request:\n*   **The Fall 75 & San Francisco Harvest:** Both require significant prep time to create custom syrups (cooking squash or simmering spices for 15+ minutes).\n*   **Cut and Run:** Requires brewing and chilling Moroccan Mint tea, which kills the \"quick\" aspect unless you have some pre-made.\n*   **The Bacchus Cocktail:** Requires muddling grapes. This is a viable \"easy\" runner-up if you have fresh fruit, but it is messier than the Swedish 75.\n\n### 3. Modifications & Variations\nSince the *Swedish 75* recipe text provided was partially cut off, here is the standard \"Expert\" ratio for this style of drink so you can assemble it quickly:\n*   **The Ratio:** 1 oz Spirit (Aquavit or Gin), 0.5 oz Lemon Juice, 0.5 oz Simple Syrup.\n*   **The Method:** Shake those three ingredients with ice, strain into the glass, and top with the Champagne mentioned in the text.\n*   **Alternative:** If you lack Champagne, any dry sparkling wine (Cava or Prosecco) works perfectly.\n\n### 4. Expert Tips\n*   **Temperature is Key:** For the Swedish 75, ensure your sparkling wine is ice cold before pouring. This preserves carbonation and prevents the drink from foaming over.\n*   **Garnish:** The recipe emphasizes the lemon twist—don't skip expressing the oils over the rim; it provides the nose of the drink, which is crucial for simple cocktails.",
+        "overall_score": 0.8547969579696655
+      }
+    },
+    {
+      "query": "Looking for a refreshing highball-style cocktail with ginger beer or ginger notes",
+      "model": "GPT-5.0",
+      "metrics": {
+        "response_time": 50.089879751205444,
+        "response_length": 2554,
+        "word_count": 397,
+        "tokens_used": {
+          "prompt_tokens": 747,
+          "completion_tokens": 1817,
+          "total_tokens": 2564
+        },
+        "relevance_score": 0.7785102128982544,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Here’s how the options stack up for a refreshing, ginger-forward highball:\n\nBest match\n- Chilcano (variation): Most on-target. It’s explicitly a tall, ice-filled build topped with ginger beer, brightened by lime, and lightly sweetened. Classic “long drink” refreshment with clear ginger pop.\n\nAlso relevant (but less classically highball)\n- A Southern Jackass: Delivers pronounced ginger via a cinnamon–candied ginger syrup, then lengthened with soda. More ginger spice depth than bite; served shorter (old fashioned glass). Swap club soda for ginger beer and serve in a highball to push it firmly into “refreshing mule-style.”\n- The Alpine Mist: Has a splash of ginger beer, but it’s served up (martini glass) with a showy garnish—more fizz/cocktail-bar vibe than a true long highball.\n\nWhat makes each unique\n- Chilcano: Crisp, zesty, and aromatic from pisco/bitters; ginger beer is the main driver of refreshment. Easiest to execute and most sessionable.\n- Southern Jackass: Richer, cozier ginger character (candied ginger + cinnamon), less effervescent as written; great if you like warming spice notes with your fizz.\n- Alpine Mist: Citrus/mint/orange aromatics with a light ginger beer topper; more presentation-forward than thirst-quenching highball.\n\nSuggested tweaks and variations\n- Want maximum ginger snap: Use a spicy, drier ginger beer (e.g., Fever-Tree “Spiced Orange/Ginger Beer,” Q Ginger Beer); add a dash of aromatic or cranberry bitters on top (as in the Chilcano).\n- Light and long: Build over lots of cold ice in a Collins/highball; don’t shake the ginger beer—top and give one gentle stir.\n- Tilt sweeter or drier: Adjust agave/syrup in the Chilcano; or in Southern Jackass, lengthen with half club soda + half ginger beer to keep ginger present without extra sweetness.\n- Turn Southern Jackass into a mule: Highball glass, top with ginger beer instead of soda; lime wedge and a slapped mint sprig make it brighter.\n- Alternative bases (if you want outside these recipes): Vodka (Mule), bourbon (Kentucky Mule), or dark rum (Dark ’n’ Stormy–style) with lime and ginger beer.\n\nTips and use-cases\n- Difficulty: Chilcano = easiest; Southern Jackass = moderate (syrup prep); Alpine Mist = moderate (presentation).\n- Flavor profile: Chilcano is crisp and lime-forward; Southern Jackass is spiced and gingery; Alpine Mist is aromatic and lightly gingery.\n- Best occasions: Warm weather, porch sipping, seafood/tacos/BBQ pairings. Keep glassware chilled and garnish with a lime wedge or a thin slice of candied ginger for a fragrant lift.",
+        "overall_score": 0.9114040851593017
+      }
+    },
+    {
+      "query": "I want a whiskey-based cocktail that's not too sweet, suitable for winter",
+      "model": "GPT-5.0",
+      "metrics": {
+        "response_time": 55.17760491371155,
+        "response_length": 2046,
+        "word_count": 325,
+        "tokens_used": {
+          "prompt_tokens": 714,
+          "completion_tokens": 2221,
+          "total_tokens": 2935
+        },
+        "relevance_score": 0.6916908621788025,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "1) Best match and why\n- Garrison’s New Fashioned: Clear whiskey base in an Old Fashioned-style build with bitters and citrus oils; apricot liqueur adds depth but the muddled peel bitterness keeps it from getting cloying. Warm, spirit-forward, and very winter-friendly.\n\n2) Other relevant options and how they differ\n- The 42nd Round: A stirred, rocks, orange-peel presentation with a Christmas-ale–honey reduction suggests an Old Fashioned-like profile that’s malty/spiced and seasonal. It can skew sweeter due to the honey reduction; confirm the base spirit (often whiskey in this format).\n- A Southern Jackass: Highball with cinnamon-ginger syrup and soda—spiced and lively but more refreshing and likely sweeter than you want. Winter flavors are there, but it’s less spirit-forward.\n\n3) Modifications to keep it “not too sweet”\n- Garrison’s New Fashioned: Use rye (drier/spicier) or a higher-proof bourbon; cut the apricot liqueur by 25–50% or split it with dry sherry (amontillado) for nutty dryness; add an extra dash of aromatic bitters; consider an orange twist instead of lemon for winter aromatics without added sugar.\n- The 42nd Round: Make the beer-honey reduction less sweet (e.g., increase the beer ratio), use a drier whiskey (rye), add more bitters, and keep dilution restrained. Choose a drier, spicier winter ale to avoid residual sweetness.\n- Southern Jackass: Halve the syrup, add a pinch of salt and a couple extra dashes of Angostura, and favor a very dry ginger beer or more soda to lift without sugar. You can also serve it shorter (less soda) for a more spirit-forward profile.\n\n4) Extra tips\n- Difficulty: Garrison’s and 42nd Round are easy, bar-cart friendly stirred sippers; Southern Jackass is easy but more “highball” casual.\n- Best occasions: Fireside or after-dinner; large clear ice will slow dilution and keep flavors focused.\n- Flavor cues: Think baking spice, stone fruit, caramel, and citrus oils. If you want the driest result, lead with rye, boost bitters, and keep any liqueur/reduction on the lighter side.",
+        "overall_score": 0.8766763448715209
+      }
+    },
+    {
+      "query": "Find me a tropical cocktail with pineapple and coconut flavors",
+      "model": "GPT-5.0",
+      "metrics": {
+        "response_time": 40.032613039016724,
+        "response_length": 2381,
+        "word_count": 385,
+        "tokens_used": {
+          "prompt_tokens": 730,
+          "completion_tokens": 1915,
+          "total_tokens": 2645
+        },
+        "relevance_score": 0.7586675882339478,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Short answer: None of the retrieved drinks deliver both pineapple and coconut as written, but a couple are very close and easy to tweak.\n\nBest matches and why\n- You Go Glen Coco: Strong coconut profile (infused whiskey + coconut cream). Add pineapple and you’re there.\n- Bon Voyage Pisco Punch: Pineapple-forward. Add coconut for a tropical lift.\n- Ypioca Chile Punch: Pineapple plus chile heat; coconut would round and soften the spice nicely.\n- Pineapple Express: Pineapple notes in a boozy, martini-style build; coconut can be introduced but it’s the least “tropical” base as-is.\n\nComparisons (what makes each unique)\n- You Go Glen Coco: Creamy, dessert-adjacent, warm spice (turmeric/ginger). Whiskey base makes it richer and less “beachy” unless you swap to rum.\n- Bon Voyage Pisco Punch: Bright, aromatic, juicy pineapple with pisco’s floral grape notes; great canvas for coconut water or a touch of cream.\n- Ypioca Chile Punch: Lively, spicy, fresher style; coconut turns it into a spicy piña-colada-esque riff.\n- Pineapple Express: Clear, silky, spirit-forward; coconut needs to be delicate (e.g., fat-wash) to avoid clashing with the dry vermouth.\n\nSmart modifications to hit pineapple + coconut\n- You Go Glen Coco: Add pineapple juice or pineapple gum syrup; consider split-base rye + aged rum (or swap fully to rum/cachaça) to push it tropical; keep crushed/shaved ice.\n- Bon Voyage Pisco Punch: Lengthen with chilled coconut water instead of some dilution, or add a small measure of coconut cream/coconut liqueur; a citrus splash (lime) helps if you add cream.\n- Ypioca Chile Punch: Shake in coconut cream or use coconut water to mellow heat; a pinch of salt brightens pineapple and tames bitterness.\n- Pineapple Express: Coconut-fat-wash one of the vodkas or add a restrained coconut liqueur; keep it dry and cold so it doesn’t turn cloying.\n\nAlternatives\n- If you want the archetype: a Piña Colada (rum, pineapple, coconut) is the canonical choice; build on crushed ice or flash-blend.\n\nTips\n- Balance: Coconut cream is sweet and heavy; add acid (lime) and lots of crushed ice for drinkability.\n- Texture choices: Coconut water = light and quenching; coconut cream = lush and dessert-like.\n- Occasion: Poolside/BBQ = Bon Voyage or Ypioca base; after-dinner or tiki-night = You Go Glen Coco riff; aperitif martini crowd = refined Pineapple Express with subtle coconut.",
+        "overall_score": 0.9034670352935792
+      }
+    },
+    {
+      "query": "What's a good cocktail for a party that can be made in large batches?",
+      "model": "GPT-5.0",
+      "metrics": {
+        "response_time": 45.42727279663086,
+        "response_length": 1751,
+        "word_count": 291,
+        "tokens_used": {
+          "prompt_tokens": 815,
+          "completion_tokens": 2140,
+          "total_tokens": 2955
+        },
+        "relevance_score": 0.6183573603630066,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.6666666666666666,
+        "response": "Top pick for batching: Big and Bright\n- Why: It’s a tall, crowd-pleasing gin highball with grapefruit, honey, lime, and a touch of ginger liqueur—refreshing, balanced, and explicitly noted as a “party sipper.” Easy to pre-batch the still components and top with soda at service.\n\nGood alternatives\n- Swedish 75: Elegant “French 75” style. Works great as a punch—batch the spirit/citrus/sweetener base, then add chilled sparkling wine just before serving. Festive but slightly fussier due to bubbles.\n- Wooster 53: Long drink topped with tonic and driven by a ginger/cardamom honey syrup. Very scalable once the syrup is made; top with chilled tonic per glass to keep carbonation.\n\nLess ideal for batching\n- A Botanical Garden: Fresh strawberry juice (and xanthan) make it perishable and prep-heavy for large groups.\n- Americana Fizz: Layered presentation doesn’t translate to big batches.\n\nHow to batch Big and Bright (method, not full specs)\n- Combine all still ingredients except soda; convert honey to a 1:1 honey syrup so it blends smoothly.\n- Pre-dilute with cold water (about 15–20% of total volume) since you won’t be shaking each drink.\n- Chill thoroughly. Serve over ice, top each with a splash of soda, and add a dash of bitters.\n\nVariations and tips\n- Softer profile: Swap some gin for vodka or use a lighter gin.\n- No ginger liqueur? Sub a bit more honey syrup plus a few slices of fresh ginger steeped briefly.\n- For Swedish 75 punch: Add sparkling last; use a big ice block and frozen citrus wheels to keep cold without quick dilution.\n- Grapefruit varies—taste your batch and adjust honey syrup to balance. Strain pulp for cleaner batching.\n- Keep citrus to day-of and everything well-chilled; top with carbonation right before serving.",
+        "overall_score": 0.7473429441452026
+      }
+    },
+    {
+      "query": "I need a low-alcohol cocktail that's still flavorful and interesting",
+      "model": "GPT-5.0",
+      "metrics": {
+        "response_time": 60.03113651275635,
+        "response_length": 2436,
+        "word_count": 403,
+        "tokens_used": {
+          "prompt_tokens": 880,
+          "completion_tokens": 2943,
+          "total_tokens": 3823
+        },
+        "relevance_score": 0.5146449208259583,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Short answer: None of these are truly low-ABV as written, but two convert beautifully with minimal changes: Root Down and the Amaretto Sour. Slow Ride can also be turned into a sessionable shandy.\n\n1) Best matches and why\n- Root Down (with tweaks): Already led by bold ginger, lemon, maple, and herbal Cardamaro, so you can drop the base spirit and keep lots of flavor.\n- Amaretto Sour (modern): Almond-citrus richness reads “big” on the palate even when you reduce alcohol.\n- Slow Ride: Its lemonade + IPA structure naturally suits a lower-ABV shandy format.\n\n2) Comparison\n- Root Down (tweaked): Spicy ginger + dark maple + amaro herbality; complex and warming without needing high proof.\n- Amaretto Sour (tweaked): Creamy, tangy, dessert-adjacent; lush mouthfeel keeps it satisfying at lower strength.\n- Slow Ride (tweaked): Bright, hoppy, effervescent; great for daytime and patio drinking.\n\n3) How to modify for low ABV\n- Root Down: Omit the vodka. Keep a small splash of Cardamaro for complexity, bump up ginger beer, and you can add a little dry vermouth or fino sherry (optional) to stay low ABV. Crushed ice and a licorice root/stir stick amplify aroma.\n- Amaretto Sour: Skip the bourbon. If you want still lower ABV, replace part of the amaretto with orgeat (almond syrup), and/or lengthen with a splash of soda. Egg white (if you use it) adds body so it doesn’t feel “lighter.”\n- Slow Ride: Make it a shandy—keep lemonade and session (or NA) IPA, swap spirits for ginger syrup or a nonalcoholic ginger liqueur. If you want a touch of alcohol, use just a small measure of ginger liqueur as the only booze.\n\nAlso possible:\n- Cherry Old Fashioned: Turn it into a spritz—skip vodka, keep a light amaro measure, add cherry syrup/juice and soda; tarragon garnish still shines.\n- Bacchus: Think “grape highball”—muddle grapes, use dry vermouth or fino sherry, top with soda.\n\n4) Tips and context\n- Flavor strategy: Preserve intensity with acid (lemon), bitterness (amaro/IPA), spice (ginger), and texture (egg white/soda/crushed ice).\n- Target ABV: Lengthen with soda or beer and keep any single alcoholic component small (0.25–0.75 oz).\n- Occasions: Shandy/Spritz routes are ideal for brunch, picnics, or long sessions; Amaretto Sour (light) works as an after-dinner option.\n\nIf you want a classic low-ABV alternative outside these: try an Americano (amaro + sweet vermouth + soda) or an Adonis (sherry + sweet vermouth + bitters).",
+        "overall_score": 0.8058579683303833
+      }
+    },
+    {
+      "query": "I'm looking for a classic gin cocktail that's elegant and sophisticated",
+      "model": "GPT-5.0",
+      "metrics": {
+        "response_time": 45.25378346443176,
+        "response_length": 1837,
+        "word_count": 275,
+        "tokens_used": {
+          "prompt_tokens": 719,
+          "completion_tokens": 2049,
+          "total_tokens": 2768
+        },
+        "relevance_score": 0.6991873383522034,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Best matches\n- Gin Made Me Do It: The most “classic-elegant.” It’s a Martini/Martinez-style, spirit-forward, stirred cocktail with a whisper of absinthe and a refined anise-fennel aroma. Orchard-fruit calvados adds polish without losing that crisp, sophisticated profile.\n- The Canevari Cocktail: Also elegant but bolder. Think Negroni/Manhattan crossroads: Old Tom gin’s softness, rich Italian vermouth, and a Campari‑style bitter make it assertive, bittersweet, and very aperitivo-chic.\n\nHow they differ\n- Tone: Gin Made Me Do It is aromatic, drier-feeling, and silky; Canevari is darker, richer, and more bitter-forward.\n- Gin style: Juniper-driven London Dry vs. sweeter Old Tom—Old Tom yields a rounder, plusher sip.\n- Accents: Absinthe/anise/lift vs. orange/bitter/Italianate depth.\n\nSuggested tweaks/variations\n- Gin Made Me Do It:\n  - Drier elegance: increase gin slightly or use a drier vermouth; keep absinthe to a rinse-level accent.\n  - No fennel flowers? Use a fennel frond or a restrained lemon twist.\n  - Swap calvados for dry sherry if you want a lighter, more aperitif-driven take.\n- The Canevari Cocktail:\n  - Crisper: replace Old Tom with London Dry.\n  - Softer bitterness: reduce the bitter liqueur slightly; express a big orange twist for aroma.\n  - Ingredient swap: Campari or Contratto Bitter stand in well for Luxardo Bitter.\n  - Serve over a single large rock for a slower, more relaxed presentation.\n\nAlternatives to consider (canonical elegance)\n- Martini, Martinez, Hanky Panky, or Gibson—each is timeless, stirred, and sophisticated in a slightly different direction.\n\nTips\n- Keep vermouth fresh and refrigerated; use large, cold ice; stir ~25–35 seconds and strain into a chilled glass.\n- Pair as an aperitif with salty snacks; a juniper-forward gin emphasizes structure, while Old Tom emphasizes plushness.",
+        "overall_score": 0.8796749353408813
+      }
+    },
+    {
+      "query": "Can you recommend a tequila cocktail with citrus and a spicy kick?",
+      "model": "GPT-5.0",
+      "metrics": {
+        "response_time": 40.53707718849182,
+        "response_length": 1856,
+        "word_count": 303,
+        "tokens_used": {
+          "prompt_tokens": 683,
+          "completion_tokens": 1881,
+          "total_tokens": 2564
+        },
+        "relevance_score": 0.6561000943183899,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Top picks for “tequila + citrus + spicy kick”\n\n- Best match, spirit-forward: Vieja Moda\nWhy: Uses Chinaco Añejo with Bittermens Hellfire Bitters for a real chili heat; warm spice from the cinnamon–clove syrup. Citrus is expressed (oils), not juicy—think tequila Old Fashioned with heat.\n\n- Best match, citrus-forward (with a tweak): Vida Verde (Adapted)\nWhy: It’s a tequila blanco sour, so bright and citrusy by design. Add heat and it becomes the classic “citrus + spice” combo.\n\nHow they differ\n- Style: Vieja Moda is an Old Fashioned build (boozy, silky, aromatic). Vida Verde is a shaken sour (fresh, zesty, refreshing).\n- Tequila choice: Añejo (Vieja Moda) brings caramel/vanilla that plays with baking spices; Blanco (Vida Verde) keeps things crisp and lets chili pop.\n- Heat delivery: Vieja Moda uses Hellfire bitters (precise, controlled burn). Vida Verde needs a chili element added.\n\nEasy modifications to nail the brief\n- Make Vida Verde spicy:\n  - Add 2–6 drops chili tincture (borrowed from The Last Tango) or 1–2 dashes Hellfire/Firewater bitters.\n  - Optional: light jalapeño or serrano muddle; chili-salt rim for aroma and a first-sip kick.\n- Make Vieja Moda more citrus-forward:\n  - Express and leave a grapefruit or orange peel; add a tiny splash of orange liqueur or a few drops of fresh lime to lift brightness.\n- If using Tequila Sunflare:\n  - Lean citrus with a big lime/grapefruit express; add chili bitters or a drop or two of tincture to introduce heat.\n\nTips and context\n- Heat control: Start small—capsaicin blooms as the drink dilutes. Taste, then add a drop or dash more.\n- Occasion: Vieja Moda = after-dinner sipper for Old Fashioned fans. Spicy Vida Verde = patio/brunch/taco night crowd-pleaser.\n- Pro move: A tiny mezcal split (10–20%) in a citrusy build boosts smoke and complements chili without overpowering the tequila.",
+        "overall_score": 0.862440037727356
+      }
+    },
+    {
+      "query": "I want something fruity and sweet, perfect for a summer brunch",
+      "model": "GPT-5.0",
+      "metrics": {
+        "response_time": 52.09656548500061,
+        "response_length": 2276,
+        "word_count": 358,
+        "tokens_used": {
+          "prompt_tokens": 953,
+          "completion_tokens": 1850,
+          "total_tokens": 2803
+        },
+        "relevance_score": 0.6500155925750732,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.3333333333333333,
+        "response": "Top picks for “fruity and sweet” summer brunch\n- Raspberry Batida: Most indulgent and clearly sweet. Bright raspberry-cachaça base with creamy coconut/almond and a hint of cacao—it drinks like a tropical berry milkshake.\n- Speyside Orchard: Apple-forward, floral-chamomile, and citrus-bright on crushed ice—refreshing and brunchable without being heavy. Sweet but more balanced than dessert-like.\n\nAlso relevant\n- Apple Shrub Spritz: Light, bubbly, sweet-tart apple with spice; great if you want low/zero-ABV vibes. The warm spices skew autumn unless toned down.\n- La Perle de Verre: Elegant, floral-fruity pear and rose with bubbles—delicate and brunch-perfect if you like a lighter, perfumed profile. Prep-heavy due to poached pear syrup.\n\nHow they differ\n- Sweetness/weight: Batida (richest/sweetest) > La Perle (delicately sweet) ≈ Speyside (balanced) > Shrub Spritz (lightest, tangy).\n- Texture: Batida is creamy; Speyside is juicy/long over crushed ice; Shrub is spritzy; La Perle is elegant and bubbly.\n- Flavor focus: Batida = berries/coconut; Speyside = apple/chamomile/lemon; Shrub = apple + spice + vinegar tang; La Perle = pear/rose.\n\nSmart tweaks\n- Raspberry Batida: Add a squeeze of lime or a pinch of salt to cut sweetness; swap condensed coconut milk for coconut cream + simple to control sugar; blend with ice for a frozen version; float prosecco for a brunch twist.\n- Speyside Orchard: For a sweeter, fruitier lean, swap the Scotch for calvados or apple brandy; top with a splash of dry cider or soda; honey-chamomile syrup works if you lack the tea syrup; adjust lemon up/down to dial tartness.\n- Apple Shrub Spritz: Use fewer warm spices and add fresh mint for a summery profile; top with prosecco instead of soda for a brunch spritz; easy NA option as-is with soda.\n- La Perle de Verre: Top with chilled rosé sparkling for extra brunch sparkle; a dash of elderflower liqueur amplifies florals; a touch of citric acid or lemon brightens the pear syrup.\n\nTips\n- Easiest crowd-pleaser: Speyside Orchard. Most dessert-like showstopper: Raspberry Batida. Light/NA-friendly: Apple Shrub Spritz. Elegant flute serve: La Perle de Verre.\n- Serve very cold (frozen glassware), use crushed ice for hot days, and garnish generously with fresh fruit for brunch appeal.",
+        "overall_score": 0.6600062370300293
+      }
+    },
+    {
+      "query": "Find me a complex cocktail with multiple spirits and herbal notes",
+      "model": "GPT-5.0",
+      "metrics": {
+        "response_time": 41.91211295127869,
+        "response_length": 2031,
+        "word_count": 323,
+        "tokens_used": {
+          "prompt_tokens": 815,
+          "completion_tokens": 1854,
+          "total_tokens": 2669
+        },
+        "relevance_score": 0.6376335024833679,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.6666666666666666,
+        "response": "Top pick(s) for “complex, multi‑spirit, herbal”:\n- Sage & Sound — Best fit. Gin + white port (two fortified/spirit components) with muddled sage brings clear herbal depth; whole egg and honey‑cinnamon add richness and complexity.\n- A Botanical Garden — Secondary fit. Hophead vodka + Zirbenz Stone Pine gives layered botanical/forest notes; brighter and tarter, less rich than Sage & Sound.\n- Nara Mule — Multi-spirit (rye + ginger liqueur) and quite complex, but leans spicy/fruity over truly herbal.\n\nHow they differ:\n- Sage & Sound: Silky, aromatic, piney/herbaceous from gin botanicals and sage; richer body from whole egg; cocktail‑bar technique.\n- A Botanical Garden: Fresh, alpine, lightly resinous from Zirbenz and hop aromatics; fruit‑forward brightness; lighter texture.\n- Nara Mule: Zesty, gingery heat with stone fruit/citrus; complexity from muddling and egg white, but herbal notes are minimal unless modified.\n\nSmart tweaks to dial up “herbal” and complexity:\n- Sage & Sound: Rinse or dash with green Chartreuse or absinthe; swap white port for bianco vermouth for drier, herbal snap; make a sage‑honey syrup; add a drop or two of saline to sharpen botanicals.\n- A Botanical Garden: Split base with a dry gin (e.g., 1:1 with the vodka) or add 0.25 oz génépy or Suze; garnish with slapped sage or rosemary to reinforce the alpine profile.\n- Nara Mule: Add shiso/Thai basil/sage in the muddle; split rye with gin or aquavit; a barspoon of green Chartreuse lifts the herbal spine.\n\nTips/context:\n- Difficulty: Sage & Sound = medium‑high (whole egg, double‑strain, herb management). A Botanical Garden = medium. Nara Mule = medium (muddle + egg white + topper).\n- Occasions: Sage & Sound suits cool evenings or pre‑dinner; Botanical Garden shines in spring/summer; Nara Mule is great for brunch or patio.\n- Egg alternatives: Aquafaba works if avoiding egg; extend dry‑shake for better foam.\n- Herb handling: “Smack” or lightly clap sage/mint to release aroma without over‑bruising; fine‑strain to avoid green bitterness.",
+        "overall_score": 0.7550534009933472
+      }
+    },
+    {
+      "query": "I need a quick and easy cocktail recipe that requires minimal ingredients",
+      "model": "GPT-5.0",
+      "metrics": {
+        "response_time": 41.92405867576599,
+        "response_length": 1538,
+        "word_count": 252,
+        "tokens_used": {
+          "prompt_tokens": 767,
+          "completion_tokens": 1666,
+          "total_tokens": 2433
+        },
+        "relevance_score": 0.5867131948471069,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.6666666666666666,
+        "response": "1) Best match\n- Swedish 75: Easiest and fewest moving parts among the list. A classic 75-style build is just base spirit + lemon + sweetener + bubbles—quick, light, and forgiving. Great if you’ve got sparkling wine and citrus on hand.\n\n2) Comparison\n- Swedish 75: Bright, bubbly, citrus-driven; low effort, minimal ingredients; party-friendly.\n- Cut and Run: Flavorful but not “minimal”—requires ginger liqueur, brewed mint tea, honey syrup; more components and prep.\n- The Fall 75, Bacchus, San Francisco Harvest: All require special prep (purees, syrups, muddling fruit). Not quick.\n\n3) Modifications/variations\n- Swedish 75 tweaks:\n  - Spirit: Use aquavit, gin, or even vodka.\n  - Sweetener: Simple syrup, agave, or skip if your bubbles are off-dry.\n  - Build-in-glass shortcut: Add spirit + lemon to a flute, top with chilled bubbles, quick stir (less silky than shaking but fastest).\n  - No lemons? A small splash of bottled lemon or a lemon-ade style mixer works in a pinch.\n- If you lack sparkling wine: Do a two-ingredient highball (whisky + soda; gin + tonic; tequila + grapefruit soda) with a squeeze of citrus if you have it.\n\n4) Extra tips\n- Difficulty: Easy; 2–3 minutes if you have chilled bubbles.\n- Flavor profile: Crisp, zesty, lightly sweet; aquavit will add herbal caraway/dill notes.\n- Occasion: Brunch, celebrations, or anytime you want something refreshing with minimal effort.\n- Pro tip: Chill the glass and the sparkling wine; express a lemon twist over the top for a big aroma payoff even with a simplified build.",
+        "overall_score": 0.7346852779388428
+      }
+    },
+    {
+      "query": "Looking for a refreshing highball-style cocktail with ginger beer or ginger notes",
+      "model": "Qwen-2.5-72B",
+      "metrics": {
+        "response_time": 0.31131553649902344,
+        "response_length": 0,
+        "word_count": 0,
+        "tokens_used": {
+          "prompt_tokens": 812,
+          "completion_tokens": 0,
+          "total_tokens": 812
+        },
+        "relevance_score": 0.10259275883436203,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.0,
+        "response": "",
+        "overall_score": 0.34103710353374483
+      }
+    },
+    {
+      "query": "I want a whiskey-based cocktail that's not too sweet, suitable for winter",
+      "model": "Qwen-2.5-72B",
+      "metrics": {
+        "response_time": 0.2451949119567871,
+        "response_length": 0,
+        "word_count": 0,
+        "tokens_used": {
+          "prompt_tokens": 799,
+          "completion_tokens": 0,
+          "total_tokens": 799
+        },
+        "relevance_score": -0.03197990730404854,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.0,
+        "response": "",
+        "overall_score": 0.28720803707838055
+      }
+    },
+    {
+      "query": "Find me a tropical cocktail with pineapple and coconut flavors",
+      "model": "Qwen-2.5-72B",
+      "metrics": {
+        "response_time": 0.22950410842895508,
+        "response_length": 0,
+        "word_count": 0,
+        "tokens_used": {
+          "prompt_tokens": 807,
+          "completion_tokens": 0,
+          "total_tokens": 807
+        },
+        "relevance_score": 0.07552237808704376,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.0,
+        "response": "",
+        "overall_score": 0.33020895123481747
+      }
+    },
+    {
+      "query": "What's a good cocktail for a party that can be made in large batches?",
+      "model": "Qwen-2.5-72B",
+      "metrics": {
+        "response_time": 0.20839548110961914,
+        "response_length": 0,
+        "word_count": 0,
+        "tokens_used": {
+          "prompt_tokens": 857,
+          "completion_tokens": 0,
+          "total_tokens": 857
+        },
+        "relevance_score": 0.020123492926359177,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.0,
+        "response": "",
+        "overall_score": 0.30804939717054364
+      }
+    },
+    {
+      "query": "I need a low-alcohol cocktail that's still flavorful and interesting",
+      "model": "Qwen-2.5-72B",
+      "metrics": {
+        "response_time": 0.3014841079711914,
+        "response_length": 0,
+        "word_count": 0,
+        "tokens_used": {
+          "prompt_tokens": 896,
+          "completion_tokens": 0,
+          "total_tokens": 896
+        },
+        "relevance_score": 0.055369507521390915,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.0,
+        "response": "",
+        "overall_score": 0.32214780300855633
+      }
+    },
+    {
+      "query": "I'm looking for a classic gin cocktail that's elegant and sophisticated",
+      "model": "Qwen-2.5-72B",
+      "metrics": {
+        "response_time": 7.288649559020996,
+        "response_length": 2808,
+        "word_count": 436,
+        "tokens_used": {
+          "prompt_tokens": 743,
+          "completion_tokens": 634,
+          "total_tokens": 1377
+        },
+        "relevance_score": 0.7066784501075745,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "### Analysis and Insights\n\n#### Best Matches\n**The Canevari Cocktail** and **Gin Made Me Do It** are the best matches for a classic, elegant, and sophisticated gin cocktail. Both cocktails feature gin as a prominent ingredient and are served in a cocktail glass, which adds to their refined appearance.\n\n#### Comparison\n- **The Canevari Cocktail**:\n  - **Key Ingredients**: Old Tom Gin, Cocchi Vermouth di Torino, Luxardo Bitter, Angostura Bitters\n  - **Style**: This cocktail is a variation of a classic Negroni with a sweeter and more aromatic profile due to the use of Old Tom Gin and Luxardo Bitter. The orange twist garnish enhances the citrus notes and adds a touch of sophistication.\n  - **Characteristics**: Balanced, slightly sweet, and aromatic. It's a well-rounded cocktail that is both elegant and approachable.\n\n- **Gin Made Me Do It**:\n  - **Key Ingredients**: Junipero Gin, C. Drouin Calvados Selection, Vermouth del Professore, Angostura Bitters, St. George Absinthe\n  - **Style**: This cocktail is a more complex and layered variation, incorporating apple brandy (Calvados) and a sweet vermouth, which adds depth and richness. The absinthe rinse provides a herbal note, and the fennel flowers garnish add a unique and sophisticated touch.\n  - **Characteristics**: Rich, complex, and herbal. It offers a more adventurous and nuanced flavor profile, making it a standout choice for those who enjoy multifaceted cocktails.\n\n#### Modifications and Variations\n- **The Canevari Cocktail**:\n  - **Modification**: For a drier version, reduce the amount of Luxardo Bitter or use a drier vermouth.\n  - **Variation**: Substitute the Old Tom Gin with a London Dry Gin for a more traditional and crisp profile.\n\n- **Gin Made Me Do It**:\n  - **Modification**: If absinthe is too strong, you can reduce the amount or omit it entirely.\n  - **Variation**: Use a different type of vermouth, such as a dry vermouth, to create a lighter and more refreshing version.\n\n#### Additional Context and Tips\n- **Difficulty Level**: Both cocktails are moderately easy to prepare, requiring basic mixing techniques like stirring and straining.\n- **Best Occasions**: These cocktails are perfect for special occasions, such as formal dinners, cocktail parties, or date nights. They are also great for sipping slowly and enjoying the complexities of each flavor.\n- **Flavor Profile**:\n  - **The Canevari Cocktail**: Sweet and aromatic with a balance of citrus and herbal notes.\n  - **Gin Made Me Do It**: Rich and complex with layers of apple, herbal, and bitter flavors.\n\nBoth cocktails are excellent choices for anyone looking for a classic, elegant, and sophisticated gin cocktail. The Canevari Cocktail is more approachable and balanced, while Gin Made Me Do It offers a more intricate and adventurous flavor experience.",
+        "overall_score": 0.8826713800430297
+      }
+    },
+    {
+      "query": "Can you recommend a tequila cocktail with citrus and a spicy kick?",
+      "model": "Qwen-2.5-72B",
+      "metrics": {
+        "response_time": 0.25708913803100586,
+        "response_length": 0,
+        "word_count": 0,
+        "tokens_used": {
+          "prompt_tokens": 749,
+          "completion_tokens": 0,
+          "total_tokens": 749
+        },
+        "relevance_score": 0.033471617847681046,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.0,
+        "response": "",
+        "overall_score": 0.3133886471390724
+      }
+    },
+    {
+      "query": "I want something fruity and sweet, perfect for a summer brunch",
+      "model": "Qwen-2.5-72B",
+      "metrics": {
+        "response_time": 0.22300124168395996,
+        "response_length": 0,
+        "word_count": 0,
+        "tokens_used": {
+          "prompt_tokens": 943,
+          "completion_tokens": 0,
+          "total_tokens": 943
+        },
+        "relevance_score": 0.022816412150859833,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.0,
+        "response": "",
+        "overall_score": 0.3091265648603439
+      }
+    },
+    {
+      "query": "Find me a complex cocktail with multiple spirits and herbal notes",
+      "model": "Qwen-2.5-72B",
+      "metrics": {
+        "response_time": 0.2367396354675293,
+        "response_length": 0,
+        "word_count": 0,
+        "tokens_used": {
+          "prompt_tokens": 832,
+          "completion_tokens": 0,
+          "total_tokens": 832
+        },
+        "relevance_score": 0.043481484055519104,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.0,
+        "response": "",
+        "overall_score": 0.3173925936222076
+      }
+    },
+    {
+      "query": "I need a quick and easy cocktail recipe that requires minimal ingredients",
+      "model": "Qwen-2.5-72B",
+      "metrics": {
+        "response_time": 0.23842668533325195,
+        "response_length": 0,
+        "word_count": 0,
+        "tokens_used": {
+          "prompt_tokens": 810,
+          "completion_tokens": 0,
+          "total_tokens": 810
+        },
+        "relevance_score": -0.0394827164709568,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.0,
+        "response": "",
+        "overall_score": 0.28420691341161725
+      }
+    },
+    {
+      "query": "Looking for a refreshing highball-style cocktail with ginger beer or ginger notes",
+      "model": "Llama-3.1-70B",
+      "metrics": {
+        "response_time": 31.718475818634033,
+        "response_length": 1452,
+        "word_count": 237,
+        "tokens_used": {
+          "prompt_tokens": 763,
+          "completion_tokens": 325,
+          "total_tokens": 1088
+        },
+        "relevance_score": 0.7686880826950073,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on your request, I recommend Recipes 2, 3, and 4, which feature ginger beer or prominent ginger notes.\n\n**Summary:**\nRecipe 2, A Southern Jackass, is a highball-style cocktail with a spicy kick from the cinnamon-candied ginger syrup. Recipe 3, The Alpine Mist, incorporates ginger beer for a refreshing twist on a classic martini. Recipe 4, Chilcano (variation), combines ginger liqueur with ginger beer for a bold, spicy flavor profile.\n\n**Comparison:**\nWhile all three recipes feature ginger, they differ in style and intensity. A Southern Jackass is more complex, with a homemade syrup adding depth. The Alpine Mist is lighter, with a focus on citrus and herbal notes. Chilcano is the boldest, with a strong ginger liqueur presence.\n\n**Suggestions:**\nIf you prefer a milder ginger flavor, The Alpine Mist might be the best choice. For a more intense experience, Chilcano is the way to go. If you're looking for a unique, spicy kick, A Southern Jackass is the top pick. Consider modifying Chilcano by reducing the amount of ginger liqueur for a more balanced flavor.\n\n**Additional Context:**\nAll three recipes are relatively easy to make, but A Southern Jackass requires some prep time for the cinnamon-candied ginger syrup. The Alpine Mist is perfect for a summer evening or a brunch gathering, while Chilcano is better suited for those who enjoy bold, spicy flavors. A Southern Jackass is ideal for fall or winter, with its warm, spicy notes.",
+        "overall_score": 0.9074752330780029
+      }
+    },
+    {
+      "query": "I want a whiskey-based cocktail that's not too sweet, suitable for winter",
+      "model": "Llama-3.1-70B",
+      "metrics": {
+        "response_time": 6.521996259689331,
+        "response_length": 1154,
+        "word_count": 182,
+        "tokens_used": {
+          "prompt_tokens": 724,
+          "completion_tokens": 241,
+          "total_tokens": 965
+        },
+        "relevance_score": 0.7982028722763062,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.3333333333333333,
+        "response": "Based on your request, I recommend Recipe 3: Garrison's New Fashioned. This whiskey-based cocktail is well-suited for winter, with a rich and complex flavor profile that's not overly sweet. The apricot liqueur adds a subtle sweetness, balanced by the bitterness from the muddled lemon peel and aromatic bitters.\n\nWhile Recipe 5: A Southern Jackass is also a whiskey-based cocktail, it's sweeter due to the cinnamon candied ginger syrup, making it less suitable for your request.\n\nGarrison's New Fashioned stands out for its bold, caramelized-sugar finish and aromatic bitters, which evoke a cozy winter atmosphere. If you prefer a slightly sweeter cocktail, you could reduce the amount of bitters or add a small amount of honey syrup. However, if you prefer a drier cocktail, you could increase the amount of bitters or add a splash of citrus.\n\nIn terms of difficulty level, Garrison's New Fashioned is a relatively straightforward cocktail to make, requiring only basic bartending skills. It's an excellent choice for a cold winter evening, and its complex flavor profile makes it suitable for special occasions or as a sophisticated after-dinner drink.",
+        "overall_score": 0.7192811489105225
+      }
+    },
+    {
+      "query": "Find me a tropical cocktail with pineapple and coconut flavors",
+      "model": "Llama-3.1-70B",
+      "metrics": {
+        "response_time": 7.859860181808472,
+        "response_length": 1430,
+        "word_count": 233,
+        "tokens_used": {
+          "prompt_tokens": 768,
+          "completion_tokens": 292,
+          "total_tokens": 1060
+        },
+        "relevance_score": 0.77986079454422,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on your request for a tropical cocktail with pineapple and coconut flavors, I recommend Recipes 1 (You Go Glen Coco) and Recipe 3 (Bon Voyage Pisco Punch). Both cocktails feature coconut and pineapple as key ingredients.\n\nRecipe 1 (You Go Glen Coco) stands out for its unique combination of toasted coconut-infused rye whiskey, turmeric coconut cream, and pineapple flavors. This cocktail has a warm, spicy, and creamy profile, perfect for those who enjoy a rich and complex tropical drink.\n\nRecipe 3 (Bon Voyage Pisco Punch) is a more refreshing and fruity option, with a focus on pineapple infusion and coconut cream. Although the recipe details are incomplete, the notes suggest a creative take on a classic caipirinha.\n\nComparing the two, Recipe 1 is more suited for those who enjoy a stronger, more complex flavor profile, while Recipe 3 is ideal for those seeking a lighter, more refreshing tropical drink.\n\nIf you want to modify or vary these recipes, consider adding a splash of citrus (e.g., lime or orange) to balance the sweetness or substituting the type of whiskey or liqueur to change the flavor profile.\n\nIn terms of difficulty level, both cocktails require some preparation time (infusing whiskey or making coconut cream), but the end result is well worth the effort. These tropical cocktails are perfect for warm weather, outdoor gatherings, or anytime you want to transport yourself to a tropical paradise.",
+        "overall_score": 0.911944317817688
+      }
+    },
+    {
+      "query": "What's a good cocktail for a party that can be made in large batches?",
+      "model": "Llama-3.1-70B",
+      "metrics": {
+        "response_time": 11.333225965499878,
+        "response_length": 1895,
+        "word_count": 309,
+        "tokens_used": {
+          "prompt_tokens": 848,
+          "completion_tokens": 392,
+          "total_tokens": 1240
+        },
+        "relevance_score": 0.6398108601570129,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "**Party Cocktail Recommendations**\n\nBased on the recipes provided, I recommend **Recipe 3: Big and Bright** and **Recipe 5: Americana Fizz (Layered Cocktail)** for a party. Both cocktails are well-suited for large batches due to their refreshing and fruity flavor profiles, which are likely to appeal to a wide range of palates.\n\n**Comparison**\n\nBig and Bright is a more straightforward, citrusy cocktail with a balance of sweet and spicy flavors, making it a great choice for a crowd. The use of grapefruit juice and King's Ginger Liqueur gives it a unique twist. Americana Fizz, on the other hand, is a layered cocktail with a visually appealing presentation, featuring a combination of citrus, herbal, and bitter flavors. Its complexity and Instagram-worthy appearance make it a great choice for a special occasion or a party with a more adventurous crowd.\n\n**Modifications and Variations**\n\nFor Big and Bright, consider scaling up the recipe and serving it in a large punch bowl or jug with plenty of ice and garnishes. You could also experiment with different types of citrus juice or add a splash of sparkling wine for extra festivity.\n\nFor Americana Fizz, if you want to simplify the recipe, you could omit the layered effect and serve it as a standard highball cocktail. Alternatively, you could experiment with different flavors of Curacao or Aperitivo to create unique variations.\n\n**Additional Context and Tips**\n\nBoth cocktails are relatively easy to make in large quantities, but keep in mind that Americana Fizz requires a bit more effort due to its layered construction. Big and Bright is a great choice for a casual gathering or outdoor party, while Americana Fizz is better suited for a more formal or special occasion. In terms of flavor profile, both cocktails are refreshing and citrusy, but Big and Bright has a spicier kick, while Americana Fizz is more complex and herbal.",
+        "overall_score": 0.8559243440628053
+      }
+    },
+    {
+      "query": "I need a low-alcohol cocktail that's still flavorful and interesting",
+      "model": "Llama-3.1-70B",
+      "metrics": {
+        "response_time": 8.003150463104248,
+        "response_length": 1498,
+        "word_count": 251,
+        "tokens_used": {
+          "prompt_tokens": 901,
+          "completion_tokens": 315,
+          "total_tokens": 1216
+        },
+        "relevance_score": 0.6734493374824524,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on your request for a low-alcohol cocktail that's still flavorful and interesting, I recommend Recipe 2: Slow Ride and Recipe 3: Root Down. Both recipes have a lower ABV due to the addition of lemonade and ginger beer, respectively, which dilute the overall alcohol content.\n\nRecipe 2: Slow Ride is a unique blend of rye whiskey, rum, and ginger liqueur, topped with a session IPA. The beer adds a refreshing and citrusy note without overpowering the other flavors. This cocktail is perfect for those who want a complex flavor profile without the high ABV.\n\nRecipe 3: Root Down, on the other hand, features root-infused vodka, which adds a subtle and earthy flavor. The addition of ginger beer and lemon juice creates a well-balanced and refreshing cocktail. This recipe is ideal for those who prefer a lighter, more citrusy drink.\n\nBoth recipes are relatively easy to make and require minimal preparation. However, if you prefer a more citrus-forward cocktail, Recipe 2 might be the better choice. If you prefer a more subtle, earthy flavor, Recipe 3 is the way to go.\n\nIf you want to modify these recipes, you could try reducing the amount of spirits or adding more mixer to lower the ABV even further. Alternatively, you could experiment with different types of beer or ginger beer to change the flavor profile.\n\nIn terms of occasions, both cocktails are perfect for daytime gatherings or casual events. The flavor profiles are light and refreshing, making them ideal for spring or summer.",
+        "overall_score": 0.869379734992981
+      }
+    },
+    {
+      "query": "I'm looking for a classic gin cocktail that's elegant and sophisticated",
+      "model": "Llama-3.1-70B",
+      "metrics": {
+        "response_time": 6.669656991958618,
+        "response_length": 1333,
+        "word_count": 228,
+        "tokens_used": {
+          "prompt_tokens": 741,
+          "completion_tokens": 279,
+          "total_tokens": 1020
+        },
+        "relevance_score": 0.7824232578277588,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on your request for a classic gin cocktail that's elegant and sophisticated, I would recommend Recipe 1: Gin Made Me Do It and Recipe 2: The Canevari Cocktail.\n\nBoth recipes feature gin as the base spirit and have a classic, timeless feel to them. However, they differ in style and character. Gin Made Me Do It is a more modern take on a classic, with the addition of Calvados and absinthe giving it a unique flavor profile. The Canevari Cocktail, on the other hand, is a more traditional Old Tom Gin-based cocktail with a bitter and herbal flavor profile.\n\nIf you're looking for a more traditional, classic gin cocktail experience, The Canevari Cocktail might be the better choice. However, if you're open to a more modern interpretation with a bit of complexity, Gin Made Me Do It is definitely worth trying.\n\nIn terms of modifications, you could try substituting the Junipero Gin in Gin Made Me Do It with another London Dry Gin to give it a slightly different flavor profile. Alternatively, you could experiment with different types of bitters in The Canevari Cocktail to change up the flavor.\n\nBoth cocktails are relatively easy to make and would be suitable for a sophisticated evening or special occasion. The flavor profile of both cocktails is complex and nuanced, with a good balance of sweet, sour, and bitter notes.",
+        "overall_score": 0.9129693031311035
+      }
+    },
+    {
+      "query": "Can you recommend a tequila cocktail with citrus and a spicy kick?",
+      "model": "Llama-3.1-70B",
+      "metrics": {
+        "response_time": 8.27965760231018,
+        "response_length": 1362,
+        "word_count": 224,
+        "tokens_used": {
+          "prompt_tokens": 721,
+          "completion_tokens": 304,
+          "total_tokens": 1025
+        },
+        "relevance_score": 0.8100857734680176,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on your request for a tequila cocktail with citrus and a spicy kick, I recommend Recipes 1 (Vieja Moda) and Recipe 2 (Vida Verde Adapted). \n\nBoth recipes incorporate tequila and citrus elements. Vieja Moda features a cinnamon-clove syrup, which may provide a warm and aromatic flavor profile, while also including bitters that contribute a spicy kick. Vida Verde Adapted uses a sour mix, likely including citrus, and pairs it with tequila.\n\nWhat makes Vieja Moda unique is its use of cinnamon-clove syrup, which adds a distinct flavor dimension. Vida Verde Adapted, on the other hand, is a more straightforward tequila sour variation. If you prefer a more pronounced spicy kick, you could consider adding a dash of chili-infused tincture (like in Recipe 4: The Last Tango) to either of these recipes.\n\nBoth cocktails appear to be moderately complex, but the flavor profiles are distinct and well-suited for different occasions. Vieja Moda might be more suitable for a fall or winter evening due to its warm spices, while Vida Verde Adapted could work well in any season.\n\nIf you prefer a clearer citrus flavor, you may want to consider Recipe 5: Tequila Sunflare, but it doesn't have a spicy element. You could experiment with adding a spicy ingredient, such as chili-infused tincture or a dash of cayenne pepper, to achieve the desired flavor combination.",
+        "overall_score": 0.924034309387207
+      }
+    },
+    {
+      "query": "I want something fruity and sweet, perfect for a summer brunch",
+      "model": "Llama-3.1-70B",
+      "metrics": {
+        "response_time": 9.7124183177948,
+        "response_length": 1496,
+        "word_count": 261,
+        "tokens_used": {
+          "prompt_tokens": 989,
+          "completion_tokens": 327,
+          "total_tokens": 1316
+        },
+        "relevance_score": 0.6355898976325989,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 0.6666666666666666,
+        "response": "Based on your request for a fruity and sweet cocktail perfect for a summer brunch, I'd recommend Recipes 1 (La Perle de Verre) and 3 (Apple Shrub Spritz). Both cocktails feature sweet and fruity flavors, with a focus on apples and pears in Recipe 1, and apples in Recipe 3.\n\nRecipe 1 stands out for its unique use of rose-poached pear syrup, which adds a floral and aromatic twist to the drink. The combination of rose and pear will transport you to a summer garden. Recipe 3, on the other hand, is a refreshing and fruity spritz, perfect for a warm summer morning. The spiced apple shrub adds a nice depth of flavor and warmth to the drink.\n\nIf you prefer a more intense fruit flavor, Recipe 4 (Raspberry Batida) could also be a great option. The combination of sweetened condensed coconut milk, almond milk, and raspberry liqueur creates a creamy and sweet cocktail. However, keep in mind that this drink has a more tropical and creamy profile compared to the other two recommendations.\n\nIn terms of modifications, you could consider adding a splash of citrus juice (e.g., lemon or orange) to Recipe 1 to balance out the sweetness. For Recipe 3, you could experiment with different types of apples or spices to create a unique flavor profile. If you choose Recipe 4, be mindful of the amount of sweetened condensed coconut milk, as it can make the drink quite sweet.\n\nAll three recipes are relatively easy to make and require minimal preparation, making them perfect for a summer brunch. Enjoy!",
+        "overall_score": 0.7542359590530395
+      }
+    },
+    {
+      "query": "Find me a complex cocktail with multiple spirits and herbal notes",
+      "model": "Llama-3.1-70B",
+      "metrics": {
+        "response_time": 9.279940843582153,
+        "response_length": 1851,
+        "word_count": 290,
+        "tokens_used": {
+          "prompt_tokens": 851,
+          "completion_tokens": 405,
+          "total_tokens": 1256
+        },
+        "relevance_score": 0.614258348941803,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "**Recommendation:** Recipe 5: Sage & Sound and Recipe 1: A Botanical Garden (Part 3/3 is not shown, but based on Part 1/3, it might fit the bill)\n\n**Summary:** Both recipes feature complex flavor profiles with multiple spirits and herbal notes. Sage & Sound combines gin, white port, and honey cinnamon syrup with muddled sage leaves, while A Botanical Garden (Part 1/3) includes hophead vodka, Zirbenz Stone Pine, and fresh strawberry juice with xanthan gum.\n\n**Comparison:** Sage & Sound is a more spirit-forward cocktail with a focus on herbal notes from the sage, while A Botanical Garden (Part 1/3) is more fruit-driven, with a balance of sweet and tart flavors. If you prefer a more intense herbal experience, Sage & Sound might be the better choice. If you prefer a more refreshing, fruity drink with herbal undertones, A Botanical Garden could be the way to go.\n\n**Modifications/Variations:** To amplify the herbal notes in Sage & Sound, consider adding a dash of herbal bitters or substituting the honey cinnamon syrup with a sage-infused simple syrup. For A Botanical Garden, you could experiment with different types of herbal liqueurs, such as lemon balm or lemongrass, to add more complexity to the flavor profile.\n\n**Additional Context/Tips:** Both recipes require some prep work, such as muddling sage leaves or making flavored syrups, so they're best suited for experienced home bartenders or special occasions. The flavor profiles are quite distinct, so it ultimately comes down to personal taste. If you're feeling adventurous, try experimenting with different herbal combinations to create a unique flavor experience.\n\n**Difficulty Level:** 7/10 (due to the need for prep work and specific ingredients)\n\n**Best Occasions:** Special occasions, dinner parties, or when you want to impress your friends with a complex, herbal cocktail.",
+        "overall_score": 0.8457033395767213
+      }
+    },
+    {
+      "query": "I need a quick and easy cocktail recipe that requires minimal ingredients",
+      "model": "Llama-3.1-70B",
+      "metrics": {
+        "response_time": 9.095685243606567,
+        "response_length": 1381,
+        "word_count": 224,
+        "tokens_used": {
+          "prompt_tokens": 783,
+          "completion_tokens": 272,
+          "total_tokens": 1055
+        },
+        "relevance_score": 0.6775234937667847,
+        "avoids_repetition_score": 1.0,
+        "completeness_score": 1.0,
+        "response": "Based on your request for a quick and easy cocktail recipe with minimal ingredients, I would recommend Recipe 1: Swedish 75 and Recipe 4: The Bacchus Cocktail. Both recipes have relatively simple ingredient lists and straightforward preparation methods.\n\nThe Swedish 75 stands out for its elegant simplicity, requiring only a few ingredients to create a refined and citrusy cocktail. The Bacchus Cocktail, on the other hand, has a slightly more complex flavor profile due to the use of Concord grapes, but its ingredient list is still relatively concise.\n\nWhile both recipes are suitable for a quick and easy cocktail, the Swedish 75 might be a better fit if you're looking for a lighter, more citrus-forward drink. The Bacchus Cocktail, with its grape and lemon peel flavors, might be more suitable for those who prefer a slightly sweeter and more complex taste experience.\n\nIf you're looking for modifications or variations, you could experiment with different types of citrus twists or garnishes for the Swedish 75 to change up the flavor profile. For the Bacchus Cocktail, you could try substituting the Concord grapes with other types of grapes or berries to see how the flavor changes.\n\nIn terms of difficulty level, both recipes are relatively easy to make and require minimal preparation time. They're perfect for a weeknight dinner party or a quick gathering with friends.",
+        "overall_score": 0.8710093975067139
+      }
+    }
+  ]
+}

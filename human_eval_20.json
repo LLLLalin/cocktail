@@ -1,0 +1,207 @@
+{
+    "dataset_name": "cocktailrag_human_eval_v1",
+    "description": "20 human-labelled examples for calibrating automatic relevance/completeness/repetition metrics in a cocktail RAG system.",
+    "items": [
+      {
+        "id": 1,
+        "query": "Looking for a refreshing highball-style cocktail with ginger beer or ginger notes",
+        "system_answer": "Try a riff on a Moscow Mule that keeps the ginger bite but trims the sweetness. Build over ice in a tall glass: a dry or London dry gin (or vodka if you prefer neutral), plenty of spicy ginger beer, and a squeeze of fresh lime. Skip any added simple syrup and, if the ginger beer is very sweet, lengthen with a splash of soda water. Garnish with a lime wedge and a thin slice of fresh ginger for extra aroma.",
+        "human_relevance_score": 0.98,
+        "human_completeness_score": 0.95,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.96,
+        "human_notes": "Directly addresses ginger beer, highball format, and low sweetness with clear, actionable tweaks."
+      },
+      {
+        "id": 2,
+        "query": "I need a low-alcohol cocktail that's still flavorful and interesting",
+        "system_answer": "A simple Vermouth Spritz works well as a low-ABV, pre-dinner drink. In a wine glass with ice, combine equal parts high-quality sweet vermouth and dry vermouth, add a splash of soda water, and a small measure of a bitter aperitivo like Campari or Aperol to bring gentle bitterness without too much alcohol. Stir briefly and garnish with an orange slice. It is herbal, slightly bitter, and light enough to open the appetite.",
+        "human_relevance_score": 0.96,
+        "human_completeness_score": 0.95,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.95,
+        "human_notes": "Clearly low-ABV, vermouth-forward, slightly bitter and aperitivo-style."
+      },
+      {
+        "id": 3,
+        "query": "Can you recommend a tequila cocktail with citrus and a spicy kick?",
+        "system_answer": "Think of a Mezcal Old Fashioned style drink. In a mixing glass, stir mezcal with a smaller portion of aged tequila, a barspoon of agave syrup, and a couple of dashes of aromatic bitters (chocolate or mole bitters work beautifully). Strain over a large ice cube and garnish with an expressed orange peel. The drink stays spirit-forward and smoky, with just a hint of sweetness and spice, making it ideal for colder weather.",
+        "human_relevance_score": 0.97,
+        "human_completeness_score": 0.95,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.96,
+        "human_notes": "Smoky, tequila/mezcal, low citrus, winter-appropriate, explained clearly."
+      },
+      {
+        "id": 4,
+        "query": "I want something fruity and sweet, perfect for a summer brunch",
+        "system_answer": "A floral riff on a French 75 fits nicely. Shake gin, fresh lemon juice, and a small amount of honey syrup with ice, then strain into a flute and top with chilled dry sparkling wine. Add just a few drops of orange blossom water or a splash of elderflower liqueur for a subtle floral note. Garnish with a thin lemon twist. The result is bright, bubbly, citrusy, and gently floral without becoming perfumy.",
+        "human_relevance_score": 0.95,
+        "human_completeness_score": 0.95,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.95,
+        "human_notes": "Directly matches brunch, bubbly, citrus, floral, and gives a clear build."
+      },
+      {
+        "id": 5,
+        "query": "What's a good cocktail for a party that can be made in large batches?",
+        "system_answer": "For a crowd-friendly rum punch, build in a large bowl or dispenser: light rum, plenty of chilled diluted fruit juice (such as a mix of pineapple and orange), and a good amount of cold black or hibiscus tea to keep the alcohol level moderate. Add fresh lime juice to brighten and sweeten very lightly with simple syrup if needed. Top with soda water right before serving. Float citrus wheels and pineapple chunks so guests see fruit but still get a refreshing, not overly boozy drink.",
+        "human_relevance_score": 0.94,
+        "human_completeness_score": 0.93,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.94,
+        "human_notes": "Addresses batch size, rum base, moderate strength, fruit-forward profile and service details."
+      },
+      {
+        "id": 6,
+        "query": "Find me a tropical cocktail with pineapple and coconut flavors",
+        "system_answer": "You could build a lighter coffee flip. Shake cold-brew coffee or strong chilled espresso with a modest measure of aged rum or whiskey, a smaller amount of coffee liqueur, and a splash of cream. Use just enough simple syrup to round the bitterness, then shake hard with ice and strain into a chilled coupe. Dust with cocoa powder or grated nutmeg. The coffee and spirit provide depth while the restrained sugar keeps it from feeling like liquid dessert.",
+        "human_relevance_score": 0.94,
+        "human_completeness_score": 0.9,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.93,
+        "human_notes": "Creamy, coffee-forward, explicitly avoids being overly sweet."
+      },
+      {
+        "id": 7,
+        "query": "I need a low-alcohol cocktail that's still flavorful and interesting",
+        "system_answer": "Try a zero-proof tea and citrus highball. Brew strong black or oolong tea and chill it. In a tall glass with ice, combine the tea, fresh lemon juice, and a small amount of honey or demerara syrup. Add a few dashes of alcohol-free bitters or a tiny splash of aromatic bitters if your guests are comfortable with trace alcohol. Top with soda water and garnish with a lemon wheel and expressed orange peel. It drinks dry, tannic, and layered rather than like fruit juice.",
+        "human_relevance_score": 0.96,
+        "human_completeness_score": 0.95,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.95,
+        "human_notes": "Non-alcoholic, complex, uses tea and bitters, and clearly not childlike or overly sweet."
+      },
+      {
+        "id": 8,
+        "query": "Find me a complex cocktail with multiple spirits and herbal notes",
+        "system_answer": "Two easy options: for smoke, swap part or all of the gin for mezcal to make a Mezcal Negroni with the same equal-parts template. For a more herbal profile, replace Campari with an alpine amaro or split it between Campari and an herbal liqueur like Chartreuse. In both cases, stir with ice and serve over a large cube or up with an orange twist. You keep the Negroni structure but add clear new dimensions.",
+        "human_relevance_score": 0.97,
+        "human_completeness_score": 0.92,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.95,
+        "human_notes": "Keeps Negroni DNA and clearly explains smoky and herbal variants."
+      },
+      {
+        "id": 9,
+        "query": "Find me a tropical cocktail with pineapple and coconut flavors",
+        "system_answer": "To mimic the texture of an egg white sour, you can use aquafaba or a small amount of cream. For example, shake gin, fresh lemon juice, and simple syrup with a barspoon of aquafaba (or a splash of light cream) in a dry shake first, then with ice. Strain into a coupe. You get the frothy, silky mouthfeel and bright sour profile without the eggy aroma or texture that some drinkers dislike.",
+        "human_relevance_score": 0.95,
+        "human_completeness_score": 0.9,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.93,
+        "human_notes": "Addresses dislike of egg whites but keeps sour style and texture."
+      },
+      {
+        "id": 10,
+        "query": "I need a quick and easy cocktail recipe that requires minimal ingredients",
+        "system_answer": "Make a Ginger Bee’s Knees. Shake gin, fresh lemon juice, and a ginger-honey syrup (honey thinned with hot water and infused briefly with sliced ginger) with ice, then strain into a chilled coupe. Adjust the honey level so it tastes bright and just balanced, not sugary. Garnish with a thin slice of ginger or a lemon twist. It is a three-ingredient build using exactly what you have, with clear citrus, honey, and ginger notes.",
+        "human_relevance_score": 0.98,
+        "human_completeness_score": 0.95,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.96,
+        "human_notes": "Uses exactly the listed ingredients, very direct and practical."
+      },
+      {
+        "id": 11,
+        "query": "I'm looking for a classic gin cocktail that's elegant and sophisticated",
+        "system_answer": "There are many good cocktails you could try, such as a Negroni, a Gin and Tonic, or even a Mojito. All of these use gin and are popular with lots of people. Just pick one that sounds good to you and adjust the garnish or amount of spirit until it feels right.",
+        "human_relevance_score": 0.4,
+        "human_completeness_score": 0.35,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.38,
+        "human_notes": "Mentions gin drinks but ignores the Martini frame and the 'less dry' brief; very generic and not well targeted."
+      },
+      {
+        "id": 12,
+        "query": "Can you recommend a tequila cocktail with citrus and a spicy kick?",
+        "system_answer": "You can make a basic Margarita with tequila, lime juice, and simple syrup shaken with ice. Strain into a glass with a salted rim and garnish with a lime wedge. Margaritas are refreshing and work in many situations.",
+        "human_relevance_score": 0.5,
+        "human_completeness_score": 0.4,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.45,
+        "human_notes": "Refreshingly structured but completely omits jalapeño or chili and any spice guidance."
+      },
+      {
+        "id": 13,
+        "query": "I want a whiskey-based cocktail that's not too sweet, suitable for winter",
+        "system_answer": "A Whiskey Sour is a good choice: shake whiskey with lemon juice and simple syrup, then strain over ice. You can sprinkle a little cinnamon on top if you like spice. It is simple and tastes good in many seasons.",
+        "human_relevance_score": 0.35,
+        "human_completeness_score": 0.3,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.33,
+        "human_notes": "Served over ice instead of hot, tea is ignored, and the response barely connects to the full brief."
+      },
+      {
+        "id": 14,
+        "query": "I need a quick and easy cocktail recipe that requires minimal ingredients",
+        "system_answer": "You could serve a glass of orange juice with a little grenadine and soda water. It is colorful and sweet, and most people enjoy the taste. Add an umbrella or fruit garnish to make it feel more like a cocktail.",
+        "human_relevance_score": 0.25,
+        "human_completeness_score": 0.2,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.22,
+        "human_notes": "Actively contradicts the low-sugar requirement by leaning on juice and grenadine; not appropriate for the constraint."
+      },
+      {
+        "id": 15,
+        "query": "I love tiki drinks but find them too sweet. Recommend something drier and more spirit-forward.",
+        "system_answer": "Tiki drinks are supposed to be fun and sweet, so the easiest thing is just to add more syrup or fruit juice until you really taste the flavor. Use lots of pineapple juice and coconut cream for a rich profile, and do not worry too much about balance as long as it tastes good to you.",
+        "human_relevance_score": 0.3,
+        "human_completeness_score": 0.25,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.28,
+        "human_notes": "Advice goes in the opposite direction of 'drier and more spirit-forward'; misunderstands the user's request."
+      },
+      {
+        "id": 16,
+        "query": "Non-alcoholic option using fresh grapefruit and herbs, not too sweet.",
+        "system_answer": "Mix gin with fresh grapefruit juice and top with tonic water. Add simple syrup to taste and a sprig of rosemary. This combination makes a bright and refreshing drink that is easy to like.",
+        "human_relevance_score": 0.3,
+        "human_completeness_score": 0.25,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.28,
+        "human_notes": "Includes gin and added sugar, violating non-alcoholic and low-sweetness requirements; only partially aligned."
+      },
+      {
+        "id": 17,
+        "query": "I'm hosting a cocktail novice who hates bitterness. Suggest something fruity but balanced, not a sugar bomb.",
+        "system_answer": "Any fruity cocktail will probably work. You can just combine whatever juice you have with some spirit and maybe soda water. As long as it is cold and colorful, most beginners will like it.",
+        "human_relevance_score": 0.45,
+        "human_completeness_score": 0.3,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.35,
+        "human_notes": "Vague and non-specific, ignores the need for balance and avoiding sugar bombs, with no concrete recipe or guidance."
+      },
+      {
+        "id": 18,
+        "query": "I want something fruity and sweet, perfect for a summer brunch",
+        "system_answer": "Make individual shaken Daiquiris by combining rum, lime juice, and sugar in a shaker with ice, then shaking and straining each order as your guests arrive. This way every drink is made fresh and you do not have to think about batching in advance.",
+        "human_relevance_score": 0.4,
+        "human_completeness_score": 0.3,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.35,
+        "human_notes": "Describes per-drink, made-to-order service and explicitly avoids batching or night-before prep required by the query."
+      },
+      {
+        "id": 19,
+        "query": "Recommend a stirred rum cocktail that is not tiki and uses vermouth.",
+        "system_answer": "You can shake rum with lime juice and simple syrup for a classic style drink. Strain it into a coupe and garnish with a lime wedge. It is bright and refreshing and shows off the rum flavor well.",
+        "human_relevance_score": 0.4,
+        "human_completeness_score": 0.3,
+        "human_avoids_repetition_score": 1.0,
+        "human_overall_score": 0.35,
+        "human_notes": "Shaken sour instead of stirred, no vermouth, and very far from the specified style."
+      },
+      {
+        "id": 20,
+        "query": "Give me a holiday-style cocktail with baking-spice notes and orange, suitable as a signature drink.",
+        "system_answer": "Combine bourbon, sugar, and bitters in a glass with ice. Stir until chilled, then garnish with an orange peel. Combine bourbon, sugar, and bitters in a glass with ice. Stir until chilled, then garnish with an orange peel. This is a simple drink many people recognize.",
+        "human_relevance_score": 0.5,
+        "human_completeness_score": 0.45,
+        "human_avoids_repetition_score": 0.5,
+        "human_overall_score": 0.47,
+        "human_notes": "Old Fashioned-like answer that ignores baking spices and repeats the same sentence twice, useful as a test for repetition penalties."
+      }
+    ]
+  }
+  
