@@ -16,7 +16,7 @@ import sys
 # Configuration
 CSV_PATH = "hotaling_cocktails - Cocktails.csv"
 EMB_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "YOUR OPENROUTER_API_KEY"
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 BEST_MODEL = "google/gemini-3-pro-preview"  # Best performing model from evaluation
 
